@@ -1,3 +1,7 @@
+// Author: Shieber
+// Date: 2020-07-30 22:44:11
+// Location: Chengdu, Szechwan.
+
 package main
 
 import (
