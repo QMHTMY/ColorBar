@@ -1,0 +1,13 @@
+# Color Bar
+:experimental:
+:author: 'Shieber'
+:date: '2020.07.30'
+
+### 描述
+[link:README.adoc[English]] 打印任务进度条，带颜色。
+
+### 使用
+$: `go run ColorBar.go`
+
+### 示例
+image::./colorbar.gif[]
