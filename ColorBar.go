@@ -62,6 +62,7 @@ func (bar *Bar) ModifyAndShowBar(current int64) {
 
 	cl := bar.color
 	fmt.Printf("\r\033[%d;%d;%dm[%-50s]\033[0m %3d%%  %8d/%d", cl.model, cl.bgcolor, cl.fgcolor, bar.ratebar, bar.percent, bar.current, bar.total)
+	//\033[%d;%d;%dm[%-50s]\033[0m 为控制颜色显示的代码
 }
 
 //添加换行符并打印退出信息
